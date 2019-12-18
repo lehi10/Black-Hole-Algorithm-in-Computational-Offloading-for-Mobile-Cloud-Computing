@@ -1,5 +1,5 @@
 # Black Hole Algorithm in Computational Offloading for Mobile Cloud Computing
-Project of Cloud Computer 
+Project of Cloud Computer (Short Paper)
 
 ### Requirements
 ```
