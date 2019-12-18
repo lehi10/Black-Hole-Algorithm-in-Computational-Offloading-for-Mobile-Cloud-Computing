@@ -7,7 +7,8 @@ import random as rand
 from numpy.random import randint
 
 # Tareas
-tasks = [5930,3900,1700,6880,6800,2400,5960,5400,8700,900,800,900,5900,7700,6200]
+tasks = [5930,3900,1700,6880,6800,2400,5960
+        ,5400,8700,900,800,900,5900,7700,6200]
 
 
 N = len(tasks) # 15 TAREAS 
@@ -184,7 +185,11 @@ def blackHoleAlgorithm():
 	print blackHole
 	print "Energia minima : ", blackHole['fitness']
 
+import time
+start_time = time.time()
 				
 blackHoleAlgorithm()
+
+print("--- %s seconds ---" % (time.time() - start_time))
 
 

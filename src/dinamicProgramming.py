@@ -227,6 +227,9 @@ def dynamicProg(tasks,N):
 tasks = [5930,3900,1700,6880,6800,2400,5960
         ,5400,8700,900,800,900,5900,7700,6200]
 
+import time
+start_time = time.time()
+
 N = len(tasks)
 
 Decision_Matrix_Dynamic ,E_min, T_min = dynamicProg(tasks,N)
@@ -235,3 +238,5 @@ Decision_Matrix_Dynamic ,E_min, T_min = dynamicProg(tasks,N)
 print Decision_Matrix_Dynamic 
 print "Energia minima : " ,E_min
 print "Tiempo mminimo : ", T_min
+
+print("--- %s seconds ---" % (time.time() - start_time))
